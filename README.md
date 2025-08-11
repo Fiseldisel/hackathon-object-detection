@@ -18,21 +18,26 @@
 ## 🚀 Инструкция по запуску
 
 ### 1. Клонирование репозитория
+```bash
 git clone https://github.com/Fiseldisel/hackathon-object-detection.git
 cd hackathon-object-detection
-
-# Установка необходимых библиотек
+```
+### 2. Установка необходимых библиотек
+```bash
 pip install -r requirements.txt
-
+```
 
 ### 3. Подготовка данных
+```bash
 python data_preparation/prepare_data.py
-
+```
 
 ### 4. Обучение модели
+```bash
 python training/train.py
-
+```
 ### 5. Инференс модели
+```bash
 python inference/inference.py
-
+```
 
