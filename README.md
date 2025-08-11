@@ -35,13 +35,10 @@
 
 ## 🚀 Инструкция по запуску
 
-### 1. Клонирование репозитория
-
 ```bash
-git clone https://github.com/ВАШ_НИК/hackathon-object-detection.git
+git clone https://github.com/Fiseldisel/hackathon-object-detection.git
 cd hackathon-object-detection
-
-### 2. Установка зависимостей
+### 1. Клонирование репозитория
 # Создание виртуального окружения (опционально, но рекомендуется )
 python -m venv venv
 source venv/bin/activate  # Для Windows: venv\Scripts\activate
